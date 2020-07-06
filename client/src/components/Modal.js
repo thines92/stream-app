@@ -8,7 +8,7 @@ const Modal = (props) => {
 				This is gibberish
 			</div>
 		</div>,
-		'#modal'
+		document.querySelector('#modal')
 	);
 };
 
